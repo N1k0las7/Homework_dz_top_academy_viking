@@ -1,0 +1,26 @@
+body{
+    background-image: url(fon.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: red;
+}
+main{
+    display: grid;
+    background-color: rgb(0, 0, 0);
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    height: 500px;
+    width: 500px;
+    grid-gap: 10px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 1px 1px 20px 10px rgb(0, 81, 255);
+}
+main div{
+    background-color: rgb(7, 98, 173);
+}
+
+
+main img{
+    width: 90%;
+}
